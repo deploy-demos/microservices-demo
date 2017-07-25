@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: quay.io/luke2/catalogue:fast-version
+        image: quay.io/luke2/catalogue:slow-version
         resources:
           limits:
             cpu: 100m
